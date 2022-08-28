@@ -1,7 +1,6 @@
 class Control:
     
     def __init__(self):
-        
         from televisores.tv import TV
         self._tv = TV
     
