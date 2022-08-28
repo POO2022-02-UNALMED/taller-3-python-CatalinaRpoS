@@ -47,10 +47,10 @@ class TV:
             if canal >= 1 and canal <= 120:
                 self._canal = canal
 
-    def getNumTV(self):
-        return self._numTV
+    def getNumTV():
+        return TV._numTV
 
-    def setNumTV(self, numTV):
+    def setNumTV(numTV):
         TV._numTV = numTV
 	
     def turnOn(self):
